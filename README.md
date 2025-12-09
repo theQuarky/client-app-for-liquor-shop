@@ -83,7 +83,7 @@ Before running this application, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/theQuarky/client-app-for-liquor-shop.git
+   git clone <repository-url>
    cd client-app-for-liquor-shop
    ```
 
@@ -114,7 +114,9 @@ npm start
 yarn start
 ```
 
-The application will open automatically in your browser at [http://localhost:3000](http://localhost:3000).
+**Note:** Since the backend API runs on port 3000, the React development server will automatically use the next available port (typically 3001). Check the console output for the actual port being used.
+
+The application will open automatically in your browser at the displayed URL (e.g., [http://localhost:3001](http://localhost:3001)).
 
 The page will reload when you make changes, and you'll see any lint errors in the console.
 
@@ -224,7 +226,7 @@ In the project directory, you can run:
 
 ### `npm start` or `yarn start`
 
-Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
+Runs the app in development mode. Since the backend API uses port 3000, the React development server will use the next available port (typically 3001). Check the console output for the actual URL.
 - Hot reload on file changes
 - Displays lint errors in console
 
