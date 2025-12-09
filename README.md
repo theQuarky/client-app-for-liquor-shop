@@ -83,7 +83,7 @@ Before running this application, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/username/client-app-for-liquor-shop.git
    cd client-app-for-liquor-shop
    ```
 
@@ -219,6 +219,7 @@ Example: GET http://localhost:3000/v1/products/wine/red
 The application uses browser localStorage for:
 - **user-login**: Stores authentication token and user data
 - **kart**: Stores shopping cart items (product names separated by '-----')
+  - Note: The codebase uses "kart" as the key name
 
 ## 📜 Available Scripts
 
